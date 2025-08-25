@@ -10,7 +10,8 @@ with open('requirements.txt') as f:
 setup(
     name=LIBRARY_NAME,
     version="0.1.0",
-    # package_dir={"": PACKAGE_DIR},
+    packages=[PACKAGE_DIR],
+    package_dir={LIBRARY_NAME: PACKAGE_DIR},
     # packages=find_packages(PACKAGE_DIR),
     packages=find_packages(),
     install_requires=install_requires,
