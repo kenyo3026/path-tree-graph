@@ -1,0 +1,5 @@
+# This project has no external dependencies
+# All required libraries are built-in Python modules:
+# - os
+# - pathlib
+# - typing
