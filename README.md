@@ -34,6 +34,15 @@ pip install -r requirements.txt
 pip install -e .
 ```
 
+#### Install directly from GitHub
+```bash
+# Install the latest version
+pip install git+https://github.com/kenyo3026/path-tree-graph.git
+
+# Or install a specific branch/tag
+pip install git+https://github.com/kenyo3026/path-tree-graph.git@main
+```
+
 **Dependencies:**
 - Python 3.10+
 - pathlib (built-in)
