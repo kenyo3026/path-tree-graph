@@ -12,8 +12,6 @@ setup(
     version="0.1.0",
     packages=[PACKAGE_DIR],
     package_dir={LIBRARY_NAME: PACKAGE_DIR},
-    # packages=find_packages(PACKAGE_DIR),
-    packages=find_packages(),
     install_requires=install_requires,
     author="kenyo3026",
     author_email="kenyo3026@gmail.com",
